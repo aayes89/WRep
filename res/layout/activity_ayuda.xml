@@ -1,0 +1,115 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AyudaActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:orientation="vertical"
+            android:textAlignment="gravity" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:text="@string/strFind" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="68dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.20"
+                android:src="@drawable/ic_findprob"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/TextView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:text="@string/strRep" />
+
+            <ImageView
+                android:id="@+id/ImageView3"
+                android:layout_width="68dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.20"
+                android:src="@drawable/ic_repair"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/TextView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:text="@string/strSOK" />
+
+            <ImageView
+                android:id="@+id/ImageView4"
+                android:layout_width="68dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.20"
+                android:src="@drawable/ic_completado"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/TextView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:text="@string/strNOK" />
+
+            <ImageView
+                android:id="@+id/ImageView5"
+                android:layout_width="68dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.20"
+                android:src="@drawable/ic_nocompletado"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/TextView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:text="@string/strSOK" />
+
+            <ImageView
+                android:id="@+id/ImageView6"
+                android:layout_width="68dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.20"
+                android:src="@drawable/ic_sennal"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/TextView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:text="@string/strNOK" />
+
+            <ImageView
+                android:id="@+id/ImageView7"
+                android:layout_width="68dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.20"
+                android:src="@drawable/ic_sinsennal"
+                tools:ignore="ContentDescription" />                     
+                
+                
+        </LinearLayout>
+
+    </ScrollView>    
+
+</RelativeLayout>

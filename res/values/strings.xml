@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WRep</string>
+    <string name="acercad">Acerca de</string>
+    <string name="ayuda">Ayuda</string>
+    <string name="ico_find">Buscar si es necesario reparación</string>
+    <string name="ico_fail">Reparación fallida</string>
+    <string name="ico_succed">Reparación exitosa</string>
+    <string name="ico_senal">Puede usar la WI-FI</string>
+    <string name="ico_ssenal">No puede usar la WI-FI</string>
+    <string name="ico_reparar">Reparar señal WI-FI</string>
+    <string name="estadoSenal">Estado de la señal</string>
+    <string name="estadoSen">" Estado actual de bloqueo"</string>
+    <string name="helper">Ayuda de WRep</string>
+    <string name="back">Volver</string>
+    <string name="AD">Acerca de WRep 1.0</string>
+    <string name="textview">TextView</string>
+    <string name="strFind">Identifica si es necesario una reparación.</string>
+    <string name="strSOK">Determina el estado del hardware al indicar que está bien.</string>
+    <string name="strNOK">Determina el estado del hardware al indicar que no está bien.</string>
+    <string name="strRep">Inicia el proceso de reparación y simulación de ubicación geográfica.</string>
+
+</resources>
